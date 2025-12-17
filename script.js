@@ -5,7 +5,11 @@ const lang = userLang.startsWith("fr") ? "fr" :
              "en";
 
 // Chargement des traductions
-fetch(`lang/${lang}.json`)
+fetch("translation/translations.json")
+  .then(res => res.json())
+  .then(all => {
+    const t = all[lang] || all["en"];
+    // ... suite du code
   .then(res => res.json())
   .then(t => {
     document.getElementById("title").textContent = t.title;
