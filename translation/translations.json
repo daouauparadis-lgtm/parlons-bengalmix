@@ -1,0 +1,29 @@
+{
+  "fr": {
+    "title": "Bienvenue sur ParlonsBengalMix 🇧🇩",
+    "subtitle": "Apprenez les langues du Bangladesh avec joie",
+    "try_free": "Essai gratuit 7 jours",
+    "go_premium": "Passer au Premium",
+    "paypal_button": "Soutenir via PayPal 💳",
+    "trial_activated": "Essai activé ! Premium temporaire débloqué 🌟",
+    "premium_unlocked": "✅ Premium activé"
+  },
+  "en": {
+    "title": "Welcome to ParlonsBengalMix 🇧🇩",
+    "subtitle": "Learn the languages of Bangladesh with joy",
+    "try_free": "Free 7-day trial",
+    "go_premium": "Go Premium",
+    "paypal_button": "Support via PayPal 💳",
+    "trial_activated": "Trial activated! Premium temporarily unlocked 🌟",
+    "premium_unlocked": "✅ Premium activated"
+  },
+  "bn": {
+    "title": "স্বাগতম ParlonsBengalMix 🇧🇩",
+    "subtitle": "বাংলাদেশের ভাষা আনন্দের সাথে শিখুন",
+    "try_free": "৭ দিনের ফ্রি ট্রায়াল",
+    "go_premium": "প্রিমিয়াম চালু করুন",
+    "paypal_button": "PayPal-এ সহায়তা করুন 💳",
+    "trial_activated": "ট্রায়াল চালু হয়েছে! প্রিমিয়াম সাময়িকভাবে চালু 🌟",
+    "premium_unlocked": "✅ প্রিমিয়াম চালু হয়েছে"
+  }
+}
