@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ParlonsBengalMix</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main>
+    <h1 id="title">ParlonsBengalMix</h1>
+    <p id="subtitle">Chargement…</p>
+
+    <div class="buttons">
+      <button id="tryFree">Essai gratuit 7 jours</button>
+      <button id="goPremium">Passer au Premium</button>
+    </div>
+
+    <div id="status"></div>
+  </main>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</body>
+</html>
